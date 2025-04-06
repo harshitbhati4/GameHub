@@ -1,7 +1,5 @@
 # GameHub - RAWG API Game Discovery Platform
 
-![GameHub Screenshot](./public/screenshot.png)
-
 A responsive React application for discovering video games using the RAWG API.
 
 ## Features
