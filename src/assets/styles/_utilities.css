@@ -1,0 +1,62 @@
+/* Spacing utilities */
+.mt-6 {
+    margin-top: 4rem;
+  }
+  
+  .mb-6 {
+    margin-bottom: 4rem;
+  }
+  
+  .py-6 {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+  
+  /* Text utilities */
+  .text-ellipsis {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  
+  .text-small {
+    font-size: 0.875rem;
+  }
+  
+  /* Layout utilities */
+  .full-height {
+    min-height: 100vh;
+  }
+  
+  .content-wrapper {
+    padding-bottom: 60px; /* Footer height */
+  }
+  
+  /* Animation utilities */
+  .fade-in {
+    animation: fadeIn 0.3s ease-in;
+  }
+  
+  @keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+  
+  /* Custom scrollbar */
+  ::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 4px;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }

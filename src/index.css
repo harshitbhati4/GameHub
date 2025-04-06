@@ -1,0 +1,72 @@
+@import './assets/styles/_variables.css';
+@import './assets/styles/_base.css';
+@import './assets/styles/_utilities.css';
+
+/* App-wide styles */
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.main-content {
+  flex: 1;
+  padding-top: 20px;
+  padding-bottom: 60px; /* Footer height */
+}
+
+/* Clerk auth component overrides */
+.cl-internal-b3fm6y {
+  display: none !important;
+}
+
+.cl-card {
+  width: 100% !important;
+  max-width: 500px !important;
+  margin: 0 auto !important;
+  box-shadow: none !important;
+  border: none !important;
+}
+
+.cl-formFieldInput {
+  border-radius: var(--border-radius) !important;
+}
+
+.cl-footerActionLink {
+  color: var(--primary-color) !important;
+}
+
+/* Game description content styles */
+.game-description {
+  line-height: 1.6;
+}
+
+.game-description h1,
+.game-description h2,
+.game-description h3 {
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.game-description p {
+  margin-bottom: 1rem;
+}
+
+.game-description ul,
+.game-description ol {
+  margin-bottom: 1rem;
+  padding-left: 1.5rem;
+}
+
+.game-description img {
+  max-width: 100%;
+  height: auto;
+  border-radius: var(--border-radius);
+  margin: 1rem 0;
+}
+
+.game-description iframe {
+  max-width: 100%;
+  border-radius: var(--border-radius);
+  margin: 1rem 0;
+}
